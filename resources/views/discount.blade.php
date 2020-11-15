@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Product Discount Calculate</h1>
-<form method="post">
+<form action="/show" method="post">
     @csrf
     <p><b>Product Description : </b><input type="text" name="Product Description" ></p>
     <p><b>List Price : </b><input type="text" name="List Price" ></p>
